@@ -11,7 +11,7 @@ module.exports = function (context) {
 	return settings.get()
 		.then(function (config) {
 			return Q.all([
-				android.afterPluginInstall(config),
+				// android.afterPluginInstall(config),
 				// ios.afterPluginInstall(config) // not implemented for iOS
 			]);
 		})
