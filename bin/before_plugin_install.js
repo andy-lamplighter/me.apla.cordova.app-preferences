@@ -2,7 +2,7 @@
 
 module.exports = function (context) {
 
-      path = require ('path'),
+      var path = require ('path'),
       pathParse = require ('./lib/path-parse');
 
   path.parse = path.parse || pathParse;
