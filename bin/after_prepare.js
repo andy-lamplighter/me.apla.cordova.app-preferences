@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = function (context) {
-		Q = require('q'),
+		var Q = require('q'),
 		path = require('path'),
 		ET = require('elementtree'),
 		cordova = require('cordova'),
